@@ -22,7 +22,7 @@ jobs:
   build:
     name: Build and Test
     strategy:
-      fail-fast: false
+      fail-fast: true
       matrix:
         os: [ubuntu-latest]
         scala: [2.12.21, 2.13.18]
